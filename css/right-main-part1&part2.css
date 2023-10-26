@@ -1,0 +1,163 @@
+/* *********************************** */
+:root{
+    --on-card-text-color:#FCFCFC;
+    --normal-text-color:#000000;
+    --normal-text-color-after-hover:#CF0A0A;
+    --border-top-color:#C7C7C7;
+    --date-color-part4-left-main:#6E6E6E;
+    --border-bottom-color:#C7C7C7;
+}
+
+/* *********************************** */
+.right-main__spacer{
+    width: 100%;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+    display: flex;
+}
+/* ******************************** */
+
+.right-main__part1{
+    width: 100%;
+    padding: 10px;
+}
+
+.right-main__part1 > h2{
+    margin: 10px 0px;
+    letter-spacing: 1px;
+}
+.right-main__part1 > h2 > a{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--normal-text-color);
+}
+
+.right-main__part1 > ul > li{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--border-bottom-color);
+}
+.right-main__part1 > ul > li:last-child{
+    border: none;
+}
+
+.right-main-part1__picture{
+    width: 100%;
+}
+.right-main-part1__picture > a > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.right-main-part1__text{
+    margin-top: 20px;
+}
+
+.right-main-part1__text > span > a{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--normal-text-color);
+    letter-spacing: 1px;
+}
+
+.right-main-part1__text > span:hover a{
+    color: var(--normal-text-color-after-hover);
+    text-decoration: underline;
+    text-decoration-color: var(--normal-text-color-after-hover);
+}
+
+.right-main__part1 > ul > li > div > span > a{
+    font-size: 18px;
+    color: var(--normal-text-color);
+}
+.right-main__part1 > ul > li > div > span:hover a{
+    color: var(--normal-text-color-after-hover);
+    text-decoration: underline;
+    text-decoration-color: var(--normal-text-color-after-hover);
+}
+
+/* ************************************************* */
+
+.right-main__part2{
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.right-main__part2 > h2{
+    margin: 10px 0px;
+    letter-spacing: 1px;
+}
+.right-main__part2 > h2 > a{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--normal-text-color);
+}
+
+
+.right-main__part2 > ul > li{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--border-bottom-color);
+}
+.right-main__part2 > ul > li:last-child{
+    border: none;
+}
+
+.right-main-part2__picture{
+    width: 100%;
+}
+.right-main-part2__picture > a > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.right-main-part2__text{
+    margin-top: 20px;
+}
+
+.right-main-part2__text > span > a{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--normal-text-color);
+    letter-spacing: 1px;
+}
+
+.right-main-part2__text > span:hover a{
+    color: var(--normal-text-color-after-hover);
+    text-decoration: underline;
+    text-decoration-color: var(--normal-text-color-after-hover);
+}
+
+.right-main__part2 > ul > li > div > span > a{
+    font-size: 18px;
+    color: var(--normal-text-color);
+}
+.right-main__part2 > ul > li > div > span:hover a{
+    color: var(--normal-text-color-after-hover);
+    text-decoration: underline;
+    text-decoration-color: var(--normal-text-color-after-hover);
+}
+
+/* ************************************************* */
+
+@media screen and (max-width: 768px){
+
+    .right-main__part1 > ul > li{
+        padding-bottom: 0px;
+        margin-bottom: 15px;
+        border: none;
+    }
+    .right-main__part2 > ul > li{
+        padding-bottom: 0px;
+        margin-bottom: 15px;
+        border: none;
+    }
+}
+@media screen and (min-width: 769px){
+
+    .first-one{
+        display: none !important;
+    }
+}
+
+

@@ -1,0 +1,213 @@
+
+
+:root{
+    --on-card-text-color:#FCFCFC;
+    --normal-text-color:#000000;
+    --normal-text-color-after-hover:#CF0A0A;
+    --border-top-color:#C7C7C7;
+    --date-color-part4-left-main:#6E6E6E;
+}
+
+/* *********************************** */
+
+.left-main__part3{
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.part3-cards{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.part3-cards > .part3-card{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.part3-card > .part3-card__img{
+    width: 100%;
+}
+
+.part3-card > .part3-card__img > a > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.part3-card > .part3-card__txt{
+    margin-top: 15px;
+}
+
+.part3-card > .part3-card__txt:hover a{
+    text-decoration: underline;
+
+}
+.part3-card > .part3-card__txt > span > a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: var(--normal-text-color);
+
+}
+.part3-card > .part3-card__txt > span:hover a{
+    text-decoration-color: var(--normal-text-color-after-hover);
+    color: var(--normal-text-color-after-hover);
+    
+}
+/* *********************************** */
+
+.left-main__part4{
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.part4-cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.part4-cards > .part4-card{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* ---------------------------------- */
+.part4-card > .part4-card__img{
+    flex: 1;
+}
+
+.part4-card > .part4-card__img > a > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+/* ---------------------------------- */
+.part4-card > .part4-card__vid{
+    flex: 1;
+}
+
+.part4-card > .part4-card__vid > a > video{
+    width: 100%;
+    object-fit: contain;
+}
+
+/* ---------------------------------- */
+
+.part4-card > .part4-card__txt{
+    margin-left: 35px;
+    flex: 1;
+    display:flex ;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/* ---------------------------------- */
+.part4-card__txt > div:first-child{
+    margin-bottom: 20px;
+}
+.part4-card__txt > div:first-child:hover span a{
+    text-decoration: underline;
+}
+
+.part4-card__txt > div:first-child > span > a{
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+    color: var(--normal-text-color);
+}
+.part4-card__txt > div:first-child > span:hover a{
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--normal-text-color-after-hover);
+    color: var(--normal-text-color-after-hover);
+}
+/* ---------------------------------- */
+.part4-card__txt > div:nth-child(2){
+    margin-bottom: 12px;
+}
+.part4-card__txt > div:nth-child(2) > span > a{
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--normal-text-color);
+}
+.part4-card__txt > div:nth-child(2) > span:hover a{
+    text-decoration: underline;
+}
+/* ---------------------------------- */
+.part4-card__txt > div:nth-child(3){
+    font-size: 16px;
+    color: var(--date-color-part4-left-main);
+    line-height: 1.38em;
+}
+
+
+/* ************************************************* */
+
+
+@media screen and (max-width: 1279px){
+
+    .part3-cards{
+        margin-top: 35px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .part3-cards > .part3-card{
+        width: 100%;
+        margin-top: 22px;
+    }
+
+    .part3-cards > .part3-card:first-child{
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .part4-card > .part4-card__txt > div:nth-child(2),
+    .part4-card > .part4-card__txt > div:nth-child(3){
+        display: none;
+    }
+
+    .part4-cards > .part4-card{
+        flex-direction: column;
+    }
+
+    .part4-card__txt > div:first-child{
+        margin: 15px 0px 20px;
+    }
+
+    .part4-card__txt > div:first-child > span > a{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: var(--normal-text-color);
+    }
+
+    .part4-card > .part4-card__txt{
+        margin-left: 0px;
+    }
+
+    .part4-cards > .part4-card{
+        padding-top: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

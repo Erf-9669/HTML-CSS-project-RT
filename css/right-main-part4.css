@@ -1,0 +1,64 @@
+:root{
+    --on-card-text-color:#FCFCFC;
+    --normal-text-color:#000000;
+    --normal-text-color-after-hover:#CF0A0A;
+    --border-top-color:#C7C7C7;
+    --date-color-part4-left-main:#6E6E6E;
+    --border-bottom-color:#C7C7C7;
+}
+
+.right-main__part4{
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+    top: 34px;
+}
+
+.right-main__part4 > h2{
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.right-main__part4 > h2 > a{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--normal-text-color);
+}
+
+/* ------------------------------------ */
+
+.main-part4__cards,
+.main-part4__card,
+.part4-card__header,
+.part4-card__header > a,
+.part4-card__header > a > img,
+.part4-card__body{
+    width: 100%;
+}
+
+.main-part4__card{
+    margin-bottom: 20px;
+}
+
+.part4-card__header{
+    margin-bottom: 10px;
+}
+
+.part4-card__header > a > img{
+    object-fit: contain;
+}
+
+.part4-card__body > a{
+    color: var(--normal-text-color);
+    line-height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.part4-card__body:hover > a{
+    text-decoration: underline;
+    text-decoration-color: var(--normal-text-color-after-hover);
+    color: var(--normal-text-color-after-hover);
+}
+
+
+
